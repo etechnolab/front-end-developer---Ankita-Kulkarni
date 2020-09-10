@@ -1,0 +1,115 @@
+
+
+body
+{
+	font-family:'arial';
+	height: 100vh;
+	background:#eee;
+	display: flex;
+	align-self:center;
+	justify-content:center;
+}
+form
+{
+	background: white;
+	padding: 100px;
+	width:550px;
+	max-width: calc(100% -60px);
+}
+.form-element
+{
+	display: flex;
+	flex-direction:column;
+	margin-bottom: 30px;
+    
+}
+.form-element span
+{
+	margin-bottom: 5px;
+}
+
+input,textarea
+{
+	border: 1px solid;
+	border: 1px solid #d0d2e2;
+	line-height: 2;
+	padding: 3px;
+	border-radius: 5px;
+}
+ .radio-buttons,label 
+
+{
+ margin-bottom: 10px;
+ cursor: pointer;
+}
+
+form button
+{
+	width: 100%;
+	padding: 20px;
+	color: white;
+	background: #1aaaef;
+	border-radius: 5px;
+	border-size:18px;
+}
+
+#bs{
+	margin: 0px 0px;
+	border-style: outset;
+	text-shadow: inherit;
+	background-color: cyan;
+
+}
+#email{
+	 margin:0px 0px 10px 0px;
+}
+#name{
+	margin:0px 0px 10px 0px;
+}
+#Mobile{
+	margin: 0px 0px 10px 0px;
+}
+
+.container
+{
+	margin: 0px 0px 700px 0px;
+	border: medium;
+
+}
+
+#gender
+{
+	padding: 40px 20px 10px 0px;
+
+}
+#message
+{
+	padding: 0px 0px 0px 0px;
+}
+h1
+{
+	text-align: center;
+	padding: 0px 0px 20px 0px;
+}
+alert {
+  padding: 20px;
+  background-color: #f44336; 
+  color: white;
+  margin-bottom: 15px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
